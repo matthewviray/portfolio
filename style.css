@@ -78,6 +78,7 @@ nav a:hover {
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
 }
 
 .projects article{
@@ -99,4 +100,56 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 300%;
+}
+
+.linkedin {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 75%;
+  color: #0A66C2;
+
+}
+
+.resume h1  {
+  text-align: center;
+  border-bottom-width: 0.1em;
+  border-bottom-style: solid;
+
+}
+
+.resume section {
+  border-bottom-width: 0.1em;
+  border-bottom-style: solid;
+}
+
+
+
+
+.resume .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  list-style: none;
+  padding: 0;
+}
+.resume .skills li {
+  background: oklch(82.06% 0.093 250.927);
+  padding: 0.2em 0.8em;
+  border-radius: 999px;
+}
+
+.resume article h3 , article p {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.resume .details {
+  font-size: 75%;
+  font-weight: normal;
+  color: oklch(50% 0% 0);
 }
