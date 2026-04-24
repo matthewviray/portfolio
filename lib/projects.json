@@ -2,37 +2,37 @@
     {
         "title": "Power Outages: Analysis on Causes and Severity",
         "year": 2025,
-        "image": "../images/power-outage.png",
+        "image": "images/power-outage.png",
         "description": "Explored what drives these causes and the severity of these outages. Performed data cleaning, feature engineering, and built a machine learning model to predict the severity of outages based on various factors. The project provided insights into the most common causes of power outages and their impact on affected areas."
     },
     {
         "title": "🚕 NYC Taxi Demand & Revenue Analysis with Machine Learning",
         "year": 2024,
-        "image": "../images/NYC-Taxi-Screenshot.png",
+        "image": "images/NYC-Taxi-Screenshot.png",
         "description": "Leverage NYC taxi and weather data to uncover actionable insights on ride demand and revenue patterns, and to build predictive models that support data-driven decision making."
     },
     {
         "title": "Airbnb EDA: What makes a listing popular?",
         "year": 2023,
-        "image": "../images/AirbnbDashboard (1).png",
+        "image": "images/AirbnbDashboard (1).png",
         "description": "This exploratory data analysis examines Airbnb listings and the features they include to uncover which factors drive guest engagement and high performance."
     },
     {
         "title": "Portfolio Project",
         "year": 2022,
-        "image": "../images/portfolio-screenshot.png",
+        "image": "images/portfolio-screenshot.png",
         "description": "Created a personal portfolio website to showcase my projects and skills. The website features a clean and modern design, with sections for my bio, projects, and contact information. It is built using HTML, CSS, and JavaScript, and is fully responsive to ensure it looks great on all devices."
     },
     {
         "title": "Expository Visualization on Grocery Store Food",
         "year": 2021,
-        "image": "../images/project1.png",
+        "image": "images/project1.png",
         "description": "Designed an expository visualization to clearly communicate an interesting insight about grocery store food. The visualization effectively conveys the key message and engages the audience, making it easy to understand and interpret the data."
     },
     {
         "title": "Persuasive or Deceptive Visualization?",
         "year": 2022,
-        "image": "../images/project2.png",
+        "image": "images/project2.png",
         "description": " Designed visualizations that consist of both ethical and non ethical design components. Two different, opposing persuasive visualizations on the same dataset. The first visualization is designed to persuade the audience towards a specific viewpoint, while the second visualization is designed to deceive the audience by presenting misleading information. Both visualizations are created with the intention of highlighting the importance of ethical data communication and the potential consequences of unethical practices."
     },
     {
