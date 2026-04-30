@@ -238,3 +238,14 @@ path {
     fill: var(--color);
   }
 }
+
+.searchBar {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em;
+  font-size: 1.25rem;
+  border: 1px solid oklch(50% 0% 0 / 20%);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+}
