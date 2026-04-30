@@ -219,3 +219,22 @@ h1 {
   border-radius: 50%;
   background-color: var(--color);
 }
+
+&:has(path:hover){
+  path:not(:hover) {
+    opacity: 0.5;
+  } 
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
