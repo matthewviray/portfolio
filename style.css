@@ -249,3 +249,28 @@ path {
   border-radius: 0.25em;
   box-sizing: border-box;
 }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.stats dt {
+  grid-row: 1;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: oklch(50% 0% 0);
+}
+
+.stats dd {
+  grid-row: 2;
+  font-size: 200%;
+  margin: 0;
+  font-weight: bold;
+}
+
+.gridlines line {
+  stroke: oklch(50% 0% 0 / 20%);
+}
