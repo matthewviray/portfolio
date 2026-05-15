@@ -1,5 +1,12 @@
 [
     {
+        "title": "Bikewatching: Boston Bike Traffic Visualization",
+        "year": 2025,
+        "image": "../images/bikewatching.png",
+        "url": "https://matthewviray.github.io/bikewatching/",
+        "description": "An interactive D3.js visualization of bike traffic in the Boston area. Explore station-level ridership data with animated flow lines showing trip volume and direction across the city's bike network."
+    },
+    {
         "title": "Power Outages: Analysis on Causes and Severity",
         "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",

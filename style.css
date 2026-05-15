@@ -92,6 +92,39 @@ nav a:hover {
 
 }
 
+.projects article h2 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 200ms;
+}
+
+.projects article:has(a):hover h2 a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.projects article h2 a::after {
+  content: ' ↗';
+  font-size: 0.6em;
+  vertical-align: super;
+  opacity: 0.4;
+  transition: opacity 200ms;
+}
+
+.projects article:has(a) {
+  cursor: pointer;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+.projects article:has(a):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px oklch(0% 0% 0 / 12%);
+}
+
+.projects article:has(a):hover h2 a::after {
+  opacity: 1;
+}
+
 .projects article h2{
   margin: 0;
 }
