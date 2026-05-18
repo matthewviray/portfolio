@@ -15,23 +15,31 @@
 
     <div id="stats"></div>
 
-    <h2>Commits by time of day</h2>
-    <div id="chart"></div>
-    <p id="selection-count">No commits selected</p>
+    <div id="scrolly-1">
+      <div id="scatter-story"></div>
+      <div id="scatter-plot">
+        <h2>Commits by time of day</h2>
+        <div id="chart"></div>
+        <p id="selection-count">No commits selected</p>
 
-    <dl id="commit-tooltip" class="info tooltip" hidden>
-    <dt>Commit</dt>
-    <dd>
-        <a href="" id="commit-link" target="_blank"></a>
-    </dd>
+        <dl id="commit-tooltip" class="info tooltip" hidden>
+          <dt>Commit</dt>
+          <dd><a href="" id="commit-link" target="_blank"></a></dd>
+          <dt>Date</dt>
+          <dd id="commit-date"></dd>
+        </dl>
 
-    <dt>Date</dt>
-    <dd id="commit-date"></dd>
+        <dl id="language-breakdown" class="stats"></dl>
+      </div>
+    </div>
 
-    <!-- Add: Time, author, lines edited -->
-    </dl>
-
-    <dl id="language-breakdown" class="stats"></dl>
+    <div id="scrolly-2">
+      <div id="files-plot">
+        <h2>Files over time</h2>
+        <dl id="files"></dl>
+      </div>
+      <div id="files-story"></div>
+    </div>
 
 
 </body>
